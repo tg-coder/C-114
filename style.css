@@ -1,0 +1,28 @@
+h3
+{
+    font-size:40px !important;
+}
+body
+{
+    font-family: 'Yomogi', cursive;
+    text-align: center;
+}
+.btn-success:hover
+{
+    background-color: cornflowerblue;
+}
+canvas
+{
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    height:600px;
+    width:600px;
+    border:2px dashed black;
+    margin-top: 90px;
+}
+@keyframes example
+{
+    from{box-shadow: 1px 1px 38px aquamarine;}
+    to{box-shadow: 1px 1px 38px coral}
+}
